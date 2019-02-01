@@ -1,0 +1,48 @@
+{
+  "name": "zephjs-loading",
+  "version": "0.0.1",
+  "author": "the awesome engineering company",
+  "license": "MIT",
+  "contributors": [
+    "Glen R. Goodwin"
+  ],
+  "main": "./index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": {},
+  "scripts": {
+  },
+  "description": "Loading screen for working with ZephJS based applications.",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesomeeng/zephjs.git"
+  },
+  "keywords": [
+	"zeph",
+    "zephjs",
+    "mistral",
+    "zeph-mistral",
+    "zephjs-mistral",
+    "web",
+    "component",
+    "components",
+    "webcomponent",
+    "webcomponents",
+    "web component",
+    "web components",
+    "awesome",
+    "awesomeeng",
+    "awesome",
+    "engineering"
+  ],
+  "bugs": {
+    "url": "https://github.com/awesomeeng/zephjs/issues"
+  },
+  "homepage": "https://github.com/awesomeeng/zephjs#readme"
+}
