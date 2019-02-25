@@ -47,17 +47,14 @@ let loader = ()=>{
 
 	// wait for zeph:ready event
 	document.addEventListener("zeph:loading",()=>{
-		console.log("loading");
 		loading = (loading===null ? 0 : loading) + 1;
 		update();
 	});
 	document.addEventListener("zeph:loaded",()=>{
-		console.log("loaded");
 		loaded = (loaded===null ? 0 : loaded) + 1;
 		update();
 	});
 	document.addEventListener("zeph:ready",()=>{
-		console.log("ready");
 		update();
 		container.remove();
 	});

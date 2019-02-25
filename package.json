@@ -1,48 +1,48 @@
 {
   "name": "zephjs-loading",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "the awesome engineering company",
   "license": "MIT",
   "contributors": [
     "Glen R. Goodwin"
   ],
-  "main": "./index.js",
+  "main": "./loading.js",
   "dependencies": {
   },
   "devDependencies": {
   },
   "optionalDependencies": {},
   "scripts": {
+	  "lint": "eslint loading.js",
   },
-  "description": "Loading screen for working with ZephJS based applications.",
+  "description": "Example loading screen for working with ZephJS based applications.",
   "directories": {
     "doc": "docs",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awesomeeng/zephjs.git"
+    "url": "git+https://github.com/awesomeeng/zephjs-loading.git"
   },
   "keywords": [
 	"zeph",
-    "zephjs",
-    "mistral",
-    "zeph-mistral",
-    "zephjs-mistral",
-    "web",
-    "component",
-    "components",
-    "webcomponent",
-    "webcomponents",
-    "web component",
-    "web components",
-    "awesome",
-    "awesomeeng",
-    "awesome",
-    "engineering"
+	"zephjs",
+	"load",
+	"loader",
+	"loading",
+	"zeph load",
+	"zephjs load",
+	"zeph loader",
+	"zephjs loader",
+	"zeph loading",
+	"zephjs loading",
+	"awesome",
+	"awesomeeng",
+	"awesome",
+	"engineering"
   ],
   "bugs": {
-    "url": "https://github.com/awesomeeng/zephjs/issues"
+    "url": "https://github.com/awesomeeng/zephjs-loading/issues"
   },
-  "homepage": "https://github.com/awesomeeng/zephjs#readme"
+  "homepage": "https://github.com/awesomeeng/zephjs-loading#readme"
 }
