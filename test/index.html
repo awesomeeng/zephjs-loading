@@ -2,17 +2,17 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>Zeph - Examples - UsingMistral</title>
-		<script src="./index.js"></script>
+		<title>zephjs-loading example</title>
+		<script src="../zephjs-loading.js"></script>
 		<script>
 			const fireLoading = (ms)=>{
 				setTimeout(()=>{
-					document.dispatchEvent(new CustomEvent("zeph:loading"));
+					document.dispatchEvent(new CustomEvent("zeph:component:loading"));
 				},ms);8
 			};
 			const fireLoaded = (ms)=>{
 				setTimeout(()=>{
-					document.dispatchEvent(new CustomEvent("zeph:loaded"));
+					document.dispatchEvent(new CustomEvent("zeph:component:defined"));
 				},ms);
 			};
 			const fireReady = (ms)=>{

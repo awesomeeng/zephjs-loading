@@ -46,11 +46,11 @@ let loader = ()=>{
 	update();
 
 	// wait for zeph:ready event
-	document.addEventListener("zeph:loading",()=>{
+	document.addEventListener("zeph:component:loading",()=>{
 		loading = (loading===null ? 0 : loading) + 1;
 		update();
 	});
-	document.addEventListener("zeph:loaded",()=>{
+	document.addEventListener("zeph:component:defined",()=>{
 		loaded = (loaded===null ? 0 : loaded) + 1;
 		update();
 	});
